@@ -1,0 +1,29 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Katrusy86/node.git"
+  },
+  "keywords": [],
+  "author": "KatrinMyronova <KatrinMyronova>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Katrusy86/node/issues"
+  },
+  "homepage": "https://github.com/Katrusy86/node#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0"
+  }
+}
